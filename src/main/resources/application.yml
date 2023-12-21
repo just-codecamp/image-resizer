@@ -1,0 +1,20 @@
+cropper:
+
+  cache:
+    ttl: 10000
+
+  auth:
+    headerName: X-SSCODE-KEY
+    algorithm: SHA-512
+    id: MDQ4YjQwNGMtYjgzZi00NmIwLTk2MDQtOWRlNjg0NTZmZDlm
+    keys:
+      - 5SdBB3AGb9R6HA2dGNEYKpvOBHLqiohU+s2RQiJUBYnoNG0oHE2oFAmQaJneRCLvgKUdr18dXjEzWDUIpE7iug==
+      - vpI9WmD5mqfiLQn5ZBcgGBqJGcCR+v9BOu5aa8SDRYXruuAUUfWD1seSvXl3SAH1tOujkoxPRwTq4F9GqqMgHw==
+      - C/FesRZhgMQs8vnLHGPZaSZcxMQctTQAvDNx+YQV1RUVoe7qH61Xiy0WQIZc1oruDz6k/A+5VmlPABHkT5REDQ==
+      - VtaYMLATY+oOO9r07Yq9sgIdryyTOFTjOs9lQYuA6NkcLAozDMCqT4I6IWyS9/KyLjUeY0kin9vQOXICXlQykg==
+      - qHQN2TWkM3f16mOigLSM/Q/xfJJZnfZstFM9+eFGL9Nic+WTiBQxkbeaJBnho3/0AL8qTptEHWUscV2OZAySGQ==
+      - 7rdoWimvilZM424y/Jk9RC57xyr+r46WdlseTKlIgHgRJS/KEGgu7MlXl5hTxG1jRQK5L2znEZ4MhaQ9+VYI4w==
+      - D3oiyQ+TYh1hgzOXaX3ecrSvIp83QEZPOEjrEk4yaXnUwWx6w/tsECdbCWVWmTRfCc/jy0c+HXDK5GQMyxusxw==
+      - 6YJ4YvIH3g/49ThqmbVgX9JNsAK543D/5nOxXhDZRx+V0Bk04xOdW9kQ7je0YxDR5dRC04ZZVNrtea58Ka/yYQ==
+      - 2s4dk5xlEgdLBLQDi9p00Qx0NHYoBffOyRbCvE/P/DTvuA0dIlDy9CdWSbOtm0ZZSC2vJqquqJQvwjVmdAat5w==
+      - bLHM01mXa//tOxGIJppUDue6UJwAPzkBuw6har1S450A6uMO+UktV1GXyjstZUSKfvgka3KYmp8PQ33u1yV4hA==

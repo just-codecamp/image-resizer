@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+
+  cropper:
+    container_name: cropper-app
+    build: .
+    ports:
+      - ${CROPPER_OUT_PORT}:${CROPPER_INNER_PORT}
+
+  crop-cache:
+    image: redis:alpine
+    container_name: crop-cache
+    ports:
+      - ${REDIS_OUT_PORT}:${REDIS_INNER_PORT}
+    command: redis-server /usr/local/etc/redis/redis.conf
+    environment:
+      - TZ=Asia/Seoul
+    restart: always
+
+
+networks:
+  default:
+    name: image-service-global
+    external: true
